@@ -1,0 +1,27 @@
+
+
+#section-img{
+width: 100%;
+}
+
+#by-Addidas{
+    margin-top: 30px;
+}
+
+
+#text-pikha{
+    color: rgb(231, 230, 230);
+}
+
+
+@media(max-width:690px){
+    
+#text-pikha{
+    display: none;
+}
+}
+
+#sec-text{
+    text-align: left;
+}
+

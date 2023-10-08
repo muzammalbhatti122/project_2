@@ -1,0 +1,13 @@
+
+
+
+#logo{
+    width: 70px;
+}
+
+
+.nav-link:hover{
+    color: black;
+    /* box-shadow: 0px 0px 10px gray; */
+}
+

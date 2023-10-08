@@ -1,0 +1,61 @@
+
+body{
+    background-color: rgb(210, 209, 209);
+}
+
+#form-signup{
+    border: 1px solid white;
+    max-width: 400px;
+    padding: 10px;
+    margin: 100px auto 100px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.inp{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.animated{
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+#btn-signup{
+    width: 100%;
+    border: none;
+    background-color: rgb(255, 47, 127);
+    height: 35px;
+}
+
+#btn-signup:hover{
+    background-color: red;
+}
+
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #333;
+}
+
+/* Animation styles */
+.animated {
+    overflow: hidden;
+    white-space: nowrap;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: revealText 2s ease forwards;
+}
+
+/* Define the animation keyframes */
+@keyframes revealText {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
